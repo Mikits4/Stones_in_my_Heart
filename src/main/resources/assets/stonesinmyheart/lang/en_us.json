@@ -1,13 +1,15 @@
 {
-  "itemGroup.stonesinmyheart.simh_items": "Stones in my Heart Items",
+  "itemGroup.stonesinmyheart.stones_in_my_heart_items": "Stones in my Heart Items",
 
-  "item.stonesinmtheart.heartstone": "Heartstone",
-  "item.stonesinmtheart.raw_heartstone": "Raw Heartstone",
+  "item.stonesinmyheart.heartstone": "Heartstone",
+  "item.stonesinmyheart.raw_heartstone": "Raw Heartstone",
 
-  "block.stonesinmtheart.heartstone_block": "Block of Raw Heartstone",
-  "block.stonesinmtheart.raw_heartstone_block": "Block of Raw Heartstone",
-  "block.stonesinmtheart.heartstone_ore": "Block of Heartstone Ore",
-  "block.stonesinmtheart.heartstone_deepslate_ore": "Block of Heartstone Deepslate Ore",
+  "block.stonesinmyheart.heartstone_block": "Block of Raw Heartstone",
+  "block.stonesinmyheart.raw_heartstone_block": "Block of Raw Heartstone",
+  "block.stonesinmyheart.heartstone_ore": "Block of Heartstone Ore",
+  "block.stonesinmyheart.heartstone_deepslate_ore": "Block of Heartstone Deepslate Ore",
 
-  "item.stonesinmtheart.heart": "Heart"
+  "block.stonesinmyheart.heartstone_lamp": "Heartstone Lamp",
+
+  "item.stonesinmyheart.heart": "§2PLAYERNAME?"
 }

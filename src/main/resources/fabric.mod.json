@@ -9,20 +9,20 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/user/Mikits",
-		"sources": "https://github.com/Mikits4/Hearts_in_Harmony"
+		"sources": "https://github.com/Mikits4/Stones_in_my_heart"
 	},
 	"license": "MIT",
-	"icon": "assets/heartsinharmony/icon.png",
+	"icon": "assets/stonesinmyheart/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.mikitstrees.heartsinharmony.HeartsinHarmony"
+			"net.mikitstrees.stonesinmyheart.StonesinmyHeart"
 		],
 		"fabric-datagen": [
-			"net.mikitstrees.heartsinharmony.HeartsinHarmonyDataGenerator"
+			"net.mikitstrees.stonesinmyheart.StonesinmyHeartDataGenerator"
 		],
 		"client": [
-			"net.mikitstrees.heartsinharmony.HeartsinHarmonyClient"
+			"net.mikitstrees.stonesinmyheart.StonesinmyHeartClient"
 		]
 	},
 	"mixins": [

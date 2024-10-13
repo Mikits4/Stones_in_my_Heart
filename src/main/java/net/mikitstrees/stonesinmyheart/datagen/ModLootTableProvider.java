@@ -26,8 +26,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        addDrop(ModBlocks.HEARTSTONE_BLOCK);
+        addDrop(ModBlocks.RAW_HEARTSTONE_BLOCK);
         addDrop(ModBlocks.HEARTSTONE_ORE, multipleOreDrops(ModBlocks.HEARTSTONE_DEEPSLATE_ORE, ModItems.RAW_HEARTSTONE, 2, 5));
         addDrop(ModBlocks.HEARTSTONE_DEEPSLATE_ORE, multipleOreDrops(ModBlocks.HEARTSTONE_DEEPSLATE_ORE, ModItems.RAW_HEARTSTONE, 2, 5));
+
+        addDrop(ModBlocks.HEARTSTONE_LAMP);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

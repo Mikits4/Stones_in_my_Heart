@@ -1,1 +1,3 @@
-// 1.21	2024-10-12T18:45:49.3918447	Hearts in harmony/Tags for minecraft:block
+// 1.21	2024-10-14T00:11:42.6910979	Hearts in harmony/Tags for minecraft:block
+9fabf43127a385ec12480c1a4bb96eae23ddeab1 data\minecraft\tags\block\needs_iron_tool.json
+85cee845edd58603b885ea96710d833200037d36 data\minecraft\tags\block\mineable\pickaxe.json

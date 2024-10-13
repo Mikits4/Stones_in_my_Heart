@@ -1,1 +1,6 @@
-// 1.21	2024-10-12T18:45:49.3918447	Hearts in harmony/Block Loot Tables
+// 1.21	2024-10-14T00:11:42.6900978	Hearts in harmony/Block Loot Tables
+d63b61ae31e7ceb133c6ab31422eb2e80d1002d3 data\stonesinmyheart\loot_table\blocks\raw_heartstone_block.json
+f1cf608e452fa0858cb2d3da44a8be3f52f858e8 data\stonesinmyheart\loot_table\blocks\heartstone_deepslate_ore.json
+fc273295e7bb8a853d4e67ff7c8e33eb1e875262 data\stonesinmyheart\loot_table\blocks\heartstone_lamp.json
+e7220c96e7491583a84e147922f464067364f01b data\stonesinmyheart\loot_table\blocks\heartstone_block.json
+f1cf608e452fa0858cb2d3da44a8be3f52f858e8 data\stonesinmyheart\loot_table\blocks\heartstone_ore.json

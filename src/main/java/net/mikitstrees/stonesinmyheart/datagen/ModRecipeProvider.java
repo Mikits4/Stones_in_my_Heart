@@ -32,13 +32,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.HEARTSTONE, RecipeCategory.DECORATIONS, ModBlocks.HEARTSTONE_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RAW_HEARTSTONE, RecipeCategory.DECORATIONS, ModBlocks.RAW_HEARTSTONE_BLOCK);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.)
-                .pattern("RRR")
-                .pattern("RRR")
-                .pattern("RRR")
-                .input('R', ModItems.)
-                .criterion(hasItem(ModItems.), conditionsFromItem(ModItems.)) //gives recipe to player
-                .offerTo(exporter);
+
     }
 
 
@@ -46,3 +40,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     //double tap shift and explore RecipeProvider
 }
 
+//ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.)
+//                .pattern("RXR")
+//                .pattern("RRR")
+//                .pattern("XRX")
+//                .input('R', ModItems.)
+//                .criterion(hasItem(ModItems.), conditionsFromItem(ModItems.)) //gives recipe to player
+//        .offerTo(exporter);

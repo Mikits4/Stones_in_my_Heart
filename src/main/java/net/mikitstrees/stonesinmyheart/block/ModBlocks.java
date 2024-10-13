@@ -1,12 +1,10 @@
 package net.mikitstrees.stonesinmyheart.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.mikitstrees.stonesinmyheart.HeartsinHarmony;
+import net.mikitstrees.stonesinmyheart.StonesinmyHeart;
+import net.mikitstrees.stonesinmyheart.block.custom.HeartstoneLampBlock;
 import net.minecraft.block.*;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -20,28 +18,28 @@ public class ModBlocks {
     public static final Block RAW_HEARTSTONE_BLOCK = registerBlock("raw_heartstone_block",
             new Block(AbstractBlock.Settings.create().strength(3f).requiresTool()));
 
-    public static final Block HEARTSTONE_ORE = registerBlock("heartstone_garnet_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+    public static final Block HEARTSTONE_ORE = registerBlock("heartstone_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(5, 10),
                     AbstractBlock.Settings.create().strength(3f).requiresTool()));
     public static final Block HEARTSTONE_DEEPSLATE_ORE = registerBlock("heartstone_deepslate_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+            new ExperienceDroppingBlock(UniformIntProvider.create(5, 10),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+
+    public static final Block HEARTSTONE_LAMP = registerBlock("heartstone_lamp",
+            new HeartstoneLampBlock(AbstractBlock.Settings.create().strength(1f).requiresTool().
+                    luminance(state -> state.get(HeartstoneLampBlock.CLICKED) ? 15 : 0)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(HeartsinHarmony.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(StonesinmyHeart.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, Identifier.of(HeartsinHarmony.MOD_ID, name),
+        Registry.register(Registries.ITEM, Identifier.of(StonesinmyHeart.MOD_ID, name),
                 new BlockItem(block, new Item.Settings()));
     }
 
     public static void registerModBlocks() {
-        HeartsinHarmony.LOGGER.info("Registering Mod Blocks for " + HeartsinHarmony.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-
-        });
+        StonesinmyHeart.LOGGER.info("Registering Mod Blocks for " + StonesinmyHeart.MOD_ID);
     }
 }

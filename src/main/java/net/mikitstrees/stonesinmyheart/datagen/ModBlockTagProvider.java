@@ -17,7 +17,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.HEARTSTONE_ORE)
-                .add(ModBlocks.HEARTSTONE_DEEPSLATE_ORE);
+                .add(ModBlocks.HEARTSTONE_DEEPSLATE_ORE)
+                .add(ModBlocks.HEARTSTONE_BLOCK)
+                .add(ModBlocks.RAW_HEARTSTONE_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.HEARTSTONE_ORE)
