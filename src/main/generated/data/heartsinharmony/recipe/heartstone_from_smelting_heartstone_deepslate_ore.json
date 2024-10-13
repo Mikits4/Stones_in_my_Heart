@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "heartstone",
+  "ingredient": {
+    "item": "stonesinmyheart:heartstone_deepslate_ore"
+  },
+  "result": {
+    "id": "stonesinmyheart:heartstone"
+  }
+}

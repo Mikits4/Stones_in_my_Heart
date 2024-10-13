@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "stonesinmyheart:block/heartstone_lamp"
+    },
+    "clicked=true": {
+      "model": "stonesinmyheart:block/heartstone_lamp_on"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "stonesinmyheart:block/heartstone_block"
+    }
+  }
+}

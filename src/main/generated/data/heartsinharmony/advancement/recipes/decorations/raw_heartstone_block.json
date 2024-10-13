@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_heartstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "stonesinmyheart:raw_heartstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:raw_heartstone_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_heartstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:raw_heartstone_block"
+    ]
+  }
+}
