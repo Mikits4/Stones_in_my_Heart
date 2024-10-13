@@ -1,0 +1,13 @@
+{
+  "itemGroup.stonesinmyheart.simh_items": "Stones in my Heart Items",
+
+  "item.stonesinmtheart.heartstone": "Heartstone",
+  "item.stonesinmtheart.raw_heartstone": "Raw Heartstone",
+
+  "block.stonesinmtheart.heartstone_block": "Block of Raw Heartstone",
+  "block.stonesinmtheart.raw_heartstone_block": "Block of Raw Heartstone",
+  "block.stonesinmtheart.heartstone_ore": "Block of Heartstone Ore",
+  "block.stonesinmtheart.heartstone_deepslate_ore": "Block of Heartstone Deepslate Ore",
+
+  "item.stonesinmtheart.heart": "Heart"
+}
