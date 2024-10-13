@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "heartsinharmony",
+	"id": "stonesinmyheart",
 	"version": "${version}",
-	"name": "Hearts in harmony",
-	"description": "Some wicked love and valantines themed mod.",
+	"name": "Stones in my Heart",
+	"description": "Stones in my heart.",
 	"authors": [
 		"Mikits"
 	],
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"heartsinharmony.mixins.json"
+		"stonesinmyheart.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
